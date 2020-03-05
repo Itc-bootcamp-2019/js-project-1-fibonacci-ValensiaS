@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-.heading {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 500;
-    text-align: center;
-}
-.heading2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 500;
-    text-align: center;
-}
-
-    </style>
-  
+    <title>Fibonacci</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Fibonacci.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
 </head>
 <body>
-       <h1 class="heading">Fibonacci formula</h1>
-       <h3 class="heading2">The Fibonacci of <span id="x">x</span > is <span id="y">y</span></h>
+
+<div class="heading">Fibonacci calculator</div>
+ <div class="row">
+    <div class="col-md-5 main">
+        <div class="heading2">The Fibonacci of </div>
+        <div class="input-button" ><input class="input-button-text" type="number" id="x" name="input-number"/><br><br></div> 
+        <button class="is" type="button" onclick="buttonClicked();">Is</button>
+        <div class="output-style" id="y"></div>
+    </div>
+ </div>
+
 
 <script type="text/javascript" src="fibonacci.js"></script>
 </body>
