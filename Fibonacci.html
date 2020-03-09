@@ -13,12 +13,15 @@
 
 <div class="heading">Fibonacci calculator</div>
  <div class="row">
-    <div class="col-md-5 main">
+    <div class="col-12 main">
         <div class="heading2">The Fibonacci of </div>
-        <div class="input-button" ><input class="input-button-text" type="number" id="x" name="input-number"/><br><br></div> 
-        <button class="is" type="button" onclick="buttonClicked();">Is</button>
+        <div class="input-button" id="xButton" ><input class="input-button-text" type="number" id="x" name="input-number"/><br><br></div> 
+        <button class="is" id="in">Is</button>
+        <div class="boxLoading" id="timer"></div>
         <div class="output-style" id="y"></div>
-    </div>
+        <div class="output-style-alarm" id="alarm"></div>
+        </div>
+    <div class="error" id="errorId">Can't be larger than 50</div>
  </div>
 
 
