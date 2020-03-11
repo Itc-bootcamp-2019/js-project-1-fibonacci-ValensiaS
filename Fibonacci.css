@@ -75,6 +75,7 @@ position: absolute;
 .output-style {
 width: 200px;
 margin-left: 60px;
+margin-top: 5px;
 position: absolute;
 display: inline-block;
 font-style: normal;
@@ -131,4 +132,98 @@ visibility: hidden;
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.result {
+position: absolute;
+width: 182px;
+height: 72px;
+left: 100px;
+top: 200px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 72px;
+/* identical to box height, or 133% */
+display: block;
+align-items: flex-end;
+color: #373A3C;
+}
+.container-result {
+    position: absolute;
+    width: 1200px;
+    left: 100px;
+    top: 279px;
+    margin: 0px;
+    margin-top: 100px;
+}
+.resultAll {
+   
+    width: 1200px;
+    left: 60px;
+    top: 279px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+       
+    color: #373A3C;
+    
+}
+.expandingListWrapper {
+    position: absolute;
+    margin: 0px;
+    display: block;
+    
+}
+
+.resultAll-next {
+   
+    width: 1200px;
+    height: 24px;
+    display: block;   
+}
+.result-next-line {
+    width: 1200px;
+    height: 4px;
+    left: 60px;
+    top: auto;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    
+    display: block;
+      
+    color: #373A3C;
+    
+}
+.expendingList1 {
+    display: inline-block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #373A3C;
+    
+
+}
+.expendingList2 {
+    display: inline-block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #373A3C;
+    margin-left: 10px;
+    margin-right: 10px;
 }
